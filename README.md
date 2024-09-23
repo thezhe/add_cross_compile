@@ -1,6 +1,10 @@
 # templatelists
 
-`CMakeLists.txt` used as a [CMake module](https://cmake.org/cmake/help/latest/manual/cmake-language.7.html#modules)
+CMake module that adds cross-compilation targets
+
+## Features
+
+- Build the `all` target with multiple Zig target triplets
 
 ## Versioning
 

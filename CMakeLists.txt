@@ -11,6 +11,7 @@ Inputs:
 Post:
 - CMake target (excluded from `all`) named `cross-compile-${arch}-${os}-${abi}`
 ]]
+# TODO make scripts part of repo
 function(thezhe_add_cross_compile arch os abi cmakeSystemName)
     # Count processors
     ProcessorCount(processor_count)
